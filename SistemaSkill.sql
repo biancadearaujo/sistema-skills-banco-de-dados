@@ -1,4 +1,4 @@
-﻿CREATE DATABASE sistema_skill;
+﻿CREATE DATABASE sistemaskill;
 
 CREATE TABLE login (
     id_login SERIAL PRIMARY KEY,
@@ -14,4 +14,4 @@ CREATE TABLE skill (
     FOREIGN KEY (id_login) REFERENCES login(id_login)
 );
 
-INSERT INTO login (login, senha) VALUES ('usuario1', '123');
+INSERT INTO login (login, senha) VALUES ('usuario1', '$2a$12$cacqCA1cqUjNePz7UkURSuJJx1HCnoW4bBLSR.pXpK7J7VgMJrC9C');
